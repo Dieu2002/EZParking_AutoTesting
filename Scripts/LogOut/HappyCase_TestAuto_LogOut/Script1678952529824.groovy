@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\admin\\Downloads\\app-release (1).apk', true)
+
+Mobile.setText(findTestObject('Object Repository/EZParking/android.widget.EditText - Email (21)'), 'yd16032302@gmail.com', 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/EZParking/android.widget.EditText - Password (22)'), '12345678', 0)
+
+Mobile.tap(findTestObject('Object Repository/EZParking/android.view.ViewGroup (28)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/EZParking/android.view.View (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/EZParking/android.view.ViewGroup (29)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/EZParking/android.view.ViewGroup (30)'), 0)
+
+Mobile.closeApplication()
+

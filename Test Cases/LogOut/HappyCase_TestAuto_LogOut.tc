@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Happycase_creatPL</name>
+   <name>HappyCase_TestAuto_LogOut</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>05f516e3-88e0-424f-9446-53cab10ed9e4</testCaseGuid>
+   <testCaseGuid>327d6e9f-6780-484d-b65a-f37f27e0b44a</testCaseGuid>
 </TestCaseEntity>
